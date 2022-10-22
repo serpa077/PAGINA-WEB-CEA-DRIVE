@@ -1,0 +1,27 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+table{
+   border-collapse:collapse;
+   font-size: 20px;
+   position: absolute;
+   top: 600px;
+}
+th,td{
+    border-style: ridge;
+    padding: 10px;
+}
+tr>th
+{
+background-color:rgb(96, 148, 7);
+}
+tbody>tr:hover
+{
+background-color:green ;
+}
+form>button{
+    background-color: rgb(96, 148, 7);
+    color: black;
+    padding: 15px;
+}
